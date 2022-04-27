@@ -1,4 +1,4 @@
-document.addEventListener("load", myFunction);
+/* document.addEventListener("load", myFunction);
 
 myFunction(); {
     var cells = document.getElementsByClassName("cell");
@@ -10,4 +10,4 @@ myFunction(); {
 
         });
     });
-}
+} */
