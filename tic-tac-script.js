@@ -1,13 +1,12 @@
-/* document.addEventListener("load", myFunction);
 
-myFunction(); {
-    var cells = document.getElementsByClassName("cell");
-    var caracter = document.getElementById("svg-whatever").style.display = "block";
+window.addEventListener("load", myFunction);
 
-    cells.forEach(cell => {
-        cell.addEventListener("click", {
-            
-
-        });
-    });
-} */
+const event = new MouseEvent('click', {
+    view: window,
+    bubbles: true,
+    cancelable: true
+  });
+  
+function myFunction() {
+    document.getElementById('checkmark').classList.add("checkmarker");
+}

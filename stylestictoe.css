@@ -121,6 +121,24 @@ body{
     border-radius: 5px;
 }
 
+#checkmark {
+    z-index: 1;
+    display: flex;
+    transform: rotate(45deg);
+    height: 0px;
+    width: 0px;
+    margin-left: 0;
+    border-bottom: 40px solid #3fb14e;
+    border-right: 40px solid #3fb14e;
+    animation-name: slidein;
+    transition: width 2s, height 2s;
+  }
+
+  .checkmarker:hover {
+    height: 200px;
+    width: 100px;
+  }
+
 .save-btn:hover {
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
